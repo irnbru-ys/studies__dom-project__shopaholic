@@ -3,9 +3,53 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Shopaholic</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	
+	<div id="wrapper">
+		<header>
+			<div id="page-top">
+				<h1 class="title">Shopaholic</h1>
+				<p>My shopping list</p>
+
+				<form id="search-item">
+					<input type="text" placeholder="Search items...">
+
+					<div id="check">
+						<label for="hide">Hide list</label>
+						<input type="checkbox" name="hide" id="hide">
+					</div>
+				</form>
+			</div>
+		</header>
+
+		<form id="add-item">
+			<input type="text" placeholder="What do you want to buy?">
+			<button>Add</button>
+		</form>
+
+		<div id="glocery-list">
+			<h2 class="title">Items To Buy</h2>
+			<ul>
+				<li>
+					<span class="item">Milk</span>
+					<span class="delete">delete</span>
+				</li>
+				<li>
+					<span class="item">Sugar & Spice</span>
+					<span class="delete">delete</span>
+				</li>
+				<li>
+					<span class="item">Somethink to drink(e.g. coke)</span>
+					<span class="delete">delete</span>
+				</li>
+				<li>
+					<span class="item">Pizza(pref. margarita)</span>
+					<span class="delete">delete</span>
+				</li>
+			</ul>
+		</div>
+	</div>
 </body>
 </html>
